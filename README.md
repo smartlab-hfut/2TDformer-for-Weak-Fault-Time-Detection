@@ -29,7 +29,11 @@ The model achieves:
 
 The overall architecture of 2TDformer is illustrated in the figure below:
 
-![2TDformer Architecture](figures/structure_new.png)
+![2TDformer Architecture](figures/structure.png)
 
+
+The structure of TWFA and LNWR are as follows:
+
+![TWFA Architecture](figures/TWFA.png) ![LNWR Architecture](figures/LNWR_new.png) 
 
 
