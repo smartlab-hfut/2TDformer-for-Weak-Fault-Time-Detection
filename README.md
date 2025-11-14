@@ -29,7 +29,7 @@ The model achieves:
 
 The overall architecture of 2TDformer is illustrated in the figure below:
 
-![2TDformer Architecture](figures/model_architecture.png)
+![2TDformer Architecture](figures/structure_new.png)
 
 
 
