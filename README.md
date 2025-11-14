@@ -130,5 +130,34 @@ The ablation results demonstrate the contributions of TWFA and LNWR:
 
 These results confirm the effectiveness of each DSP module and their synergistic impact in the complete architecture.
 
+## 📚 Citation
+
+If you use this repository, please cite the following paper:
+
+```bibtex
+@article{2tdformer2025,
+  title={Weak Single Phase-to-Ground Fault Time Detection with Learnable-Parameter-Driven DSP-Enhanced Transformer},
+  author={Luo, Huan and Li, Qiyue and Zhou, Hao and Sun, Wei and Li, Weitao and Liu, Zhi and Ji, Yusheng and Ding, Lijian},
+  journal={IEEE Transactions on Smart Grid},
+  year={2025}
+}
 
 
+@article{Li_2023_Incipient,
+  title = {Incipient Fault Detection in Power Distribution System: A Time–Frequency Embedded Deep-Learning-Based Approach},
+  shorttitle = {Incipient Fault Detection in Power Distribution System},
+  author = {Li, Qiyue and Luo, Huan and Cheng, Hong and Deng, Yuxing and Sun, Wei and Li, Weitao and Liu, Zhi},
+  year = {2023},
+  journal = {IEEE Trans. Instrum. Meas.},
+  volume = {72},
+  pages = {1--14},
+  issn = {1557-9662},
+  urldate = {2024-11-11},
+  eventtitle = {IEEE Transactions on Instrumentation and Measurement}
+}
+```
+
+For questions or discussions, please contact:
+
+- **Huan Luo**, Hefei University of Technology  
+  Email: luohuan@mail.hfut.edu.cn  
