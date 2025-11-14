@@ -27,13 +27,20 @@ The model achieves:
 - **35–58% improvement** over 11 baseline models
 
 
+## 📐 Model Architecture
+
 The overall architecture of 2TDformer is illustrated in the figure below:
 
-![2TDformer Architecture](figures/structure.png)
+<p align="center">
+  <img src="figures/structure.png" width="70%">
+</p>
 
+The structures of TWFA and LNWR are shown side-by-side below:
 
-The structure of TWFA and LNWR are as follows:
+<p align="center">
+  <img src="figures/TWFA.png" width="35%" style="margin-right: 2%;">
+  <img src="figures/LNWR_new.png" width="34%">
+</p>
 
-![TWFA Architecture](figures/TWFA.png) ![LNWR Architecture](figures/LNWR_new.png) 
 
 
