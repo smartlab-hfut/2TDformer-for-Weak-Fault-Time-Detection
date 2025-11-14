@@ -63,6 +63,38 @@ pip install -r requirements.txt
 python main.py --data_path ./data --batch_size 16 --epochs 50 --lr 0.001 --num_heads 6  --d_hid 400 --d_inner 400 --n_layers 1 --dropout 0.0 --mul_dim 3 --step_size 50
 ```
 
+## 📡 Dataset
+
+This repository provides the processed training and testing datasets used for evaluating 2TDformer.  
+All data files are stored in the `data/` directory:
+
+
+### **Data Format**
+
+- `train_data2.csv` / `test_data2.csv`  
+  Contain waveform samples collected from distribution networks of SGCCAH-RWD.  
+  Each sample corresponds to a sequence of **400 time steps × 6 electrical quantities**
+
+- `train_label2.csv` / `test_label2.csv`  
+Contain the corresponding binary fault labels with the same temporal length (400 points):
+
+### **Signal Description**
+
+Each sample contains six channels representing:
+
+1. Phase voltages (Ua, Ub, Uc)  
+2. Phase currents (Ia, Ib, Ic)
+
+All signals are normalized and standardized automatically during preprocessing.
+
+### **Usage in Code**
+
+The training and testing datasets are loaded through:
+
+```python
+train_loader, test_loader = prepare_dataset("./data", batch_size=16)
+```
+
 
 
 
