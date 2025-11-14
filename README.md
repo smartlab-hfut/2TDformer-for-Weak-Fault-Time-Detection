@@ -105,21 +105,20 @@ This section presents key experimental results demonstrating the effectiveness o
 ### **1. Performance Comparison with Baseline Models**
 
 <p align="center">
-  <img src="figures/performance_heatmap.png" width="80%">
+  <img src="figures/performance_heatmap.png" width="25%" style="margin-right: 2%;">
+  <img src="figures/predict_line.png" width="35%">
 </p>
 
 2TDformer achieves the best performance across all major metrics, including  
 **Accuracy (0.9710), Precision (0.9494), Recall (0.9578), F1-score (0.9486), and AUC (0.9961)**.
 
-The heatmap shows that 2TDformer consistently outperforms 11 state-of-the-art sequence modeling methods  
-such as Crossformer, Informer, TimesNet, FEDformer, MICN, TP-FCN, and DC-CNN.
 
 ---
 
 ### **2. Ablation Study**
 
 <p align="center">
-  <img src="figures/ablation_radar.png" width="75%">
+  <img src="figures/ablation_radar.png" width="35%">
 </p>
 
 The ablation results demonstrate the contributions of TWFA and LNWR:
