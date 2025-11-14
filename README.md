@@ -50,26 +50,18 @@ Clone the repository:
 ```bash
 git clone https://github.com/smartlab-hfut/2TDformer-for-Weak-Fault-Time-Detection.git
 cd 2TDformer-for-Weak-Fault-Time-Detection
-bash```
+```
 
 
 Install dependencies:
+```
 pip install -r requirements.txt
+```
 
 🚀 Usage
-python main.py \
-    --data_path ./data \
-    --batch_size 16 \
-    --epochs 50 \
-    --lr 0.001 \
-    --num_heads 6 \
-    --d_hid 400 \
-    --d_inner 400 \
-    --n_layers 1 \
-    --dropout 0.0 \
-    --mul_dim 3 \
-    --step_size 50
-
+```
+python main.py --data_path ./data --batch_size 16 --epochs 50 --lr 0.001 --num_heads 6  --d_hid 400 --d_inner 400 --n_layers 1 --dropout 0.0 --mul_dim 3 --step_size 50
+```
 
 
 
