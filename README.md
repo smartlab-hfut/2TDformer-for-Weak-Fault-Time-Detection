@@ -2,8 +2,6 @@
 
 <p align="center">
   <i>Official implementation of the IEEE Transactions on Smart Grid (TSG) 2025 paper</i>
-  <br>
-  <i>Huan Luo, Qiyue Li*, Hao Zhou, Wei Sun, Weitao Li, Zhi Liu, Yusheng Ji, Lijian Ding</i>
 </p>
 
 <p align="center">
